@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "nftmarket",
-    "slug": "nftmarket",
+    "slug": "nftshowcase",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,13 +21,20 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.matheos.nftshowcase"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
       "expo-font"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "d8e6bfa6-6aca-4c45-9bce-fb2accfbc81f"
+      }
+    },
+    "owner": "matheos"
   }
 }
